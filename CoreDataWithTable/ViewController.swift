@@ -48,6 +48,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         results = try! context.executeFetchRequest(request)
         
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return results.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell: myTableViewCell = tableView.dequeueReusableCellWithIdentifier("myTabVC") as! myTableViewCell
+        let aux = results[indexPath.row] as! NSManagedObject
+        cell.title.text = aux.valueForKey("title") as? String
+        cell.director.text = aux.valueForKey("director") as? String
+        cell.year.text = aux.valueForKey("year") as? String
+        cell.myImage.image = UIImage(named: aux.valueForKey("image") as! String)
+        
+        return cell
+        
+    }
 
 }
 
