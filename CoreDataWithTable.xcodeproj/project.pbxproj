@@ -15,6 +15,11 @@
 		58FA203F1D47F5F600F086B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FA203D1D47F5F600F086B9 /* LaunchScreen.storyboard */; };
 		58FA204A1D47F5F800F086B9 /* CoreDataWithTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA20491D47F5F800F086B9 /* CoreDataWithTableTests.swift */; };
 		58FA20551D47F5F900F086B9 /* CoreDataWithTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA20541D47F5F900F086B9 /* CoreDataWithTableUITests.swift */; };
+		58FA20661D47F6ED00F086B9 /* alien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58FA20621D47F6ED00F086B9 /* alien.jpg */; };
+		58FA20671D47F6ED00F086B9 /* godzilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58FA20631D47F6ED00F086B9 /* godzilla.jpg */; };
+		58FA20681D47F6ED00F086B9 /* hobbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58FA20641D47F6ED00F086B9 /* hobbit.jpg */; };
+		58FA20691D47F6ED00F086B9 /* jpark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58FA20651D47F6ED00F086B9 /* jpark.jpg */; };
+		58FA206B1D47F72100F086B9 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FA206A1D47F72100F086B9 /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		58FA20501D47F5F800F086B9 /* CoreDataWithTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataWithTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FA20541D47F5F900F086B9 /* CoreDataWithTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataWithTableUITests.swift; sourceTree = "<group>"; };
 		58FA20561D47F5FA00F086B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FA20621D47F6ED00F086B9 /* alien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alien.jpg; sourceTree = "<group>"; };
+		58FA20631D47F6ED00F086B9 /* godzilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = godzilla.jpg; sourceTree = "<group>"; };
+		58FA20641D47F6ED00F086B9 /* hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hobbit.jpg; sourceTree = "<group>"; };
+		58FA20651D47F6ED00F086B9 /* jpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpark.jpg; sourceTree = "<group>"; };
+		58FA206A1D47F72100F086B9 /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		58FA20251D47F5F200F086B9 = {
 			isa = PBXGroup;
 			children = (
+				58FA206A1D47F72100F086B9 /* myTableViewCell.swift */,
 				58FA20301D47F5F400F086B9 /* CoreDataWithTable */,
 				58FA20481D47F5F700F086B9 /* CoreDataWithTableTests */,
 				58FA20531D47F5F800F086B9 /* CoreDataWithTableUITests */,
@@ -99,6 +110,10 @@
 		58FA20301D47F5F400F086B9 /* CoreDataWithTable */ = {
 			isa = PBXGroup;
 			children = (
+				58FA20621D47F6ED00F086B9 /* alien.jpg */,
+				58FA20631D47F6ED00F086B9 /* godzilla.jpg */,
+				58FA20641D47F6ED00F086B9 /* hobbit.jpg */,
+				58FA20651D47F6ED00F086B9 /* jpark.jpg */,
 				58FA20311D47F5F500F086B9 /* AppDelegate.swift */,
 				58FA20331D47F5F500F086B9 /* ViewController.swift */,
 				58FA20351D47F5F500F086B9 /* Main.storyboard */,
@@ -233,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FA203F1D47F5F600F086B9 /* LaunchScreen.storyboard in Resources */,
+				58FA20661D47F6ED00F086B9 /* alien.jpg in Resources */,
+				58FA20671D47F6ED00F086B9 /* godzilla.jpg in Resources */,
 				58FA203C1D47F5F600F086B9 /* Assets.xcassets in Resources */,
 				58FA20371D47F5F500F086B9 /* Main.storyboard in Resources */,
+				58FA20681D47F6ED00F086B9 /* hobbit.jpg in Resources */,
+				58FA20691D47F6ED00F086B9 /* jpark.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FA20341D47F5F500F086B9 /* ViewController.swift in Sources */,
+				58FA206B1D47F72100F086B9 /* myTableViewCell.swift in Sources */,
 				58FA203A1D47F5F600F086B9 /* CoreDataWithTable.xcdatamodeld in Sources */,
 				58FA20321D47F5F500F086B9 /* AppDelegate.swift in Sources */,
 			);
