@@ -10,7 +10,7 @@ import UIKit
 
 class myTableViewCell: UITableViewCell {
     
-    // outlet 
+    // outlet
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var director: UILabel!
     @IBOutlet weak var year: UILabel!
