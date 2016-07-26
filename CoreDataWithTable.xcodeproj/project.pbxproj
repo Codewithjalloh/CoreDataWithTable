@@ -58,7 +58,7 @@
 		58FA20631D47F6ED00F086B9 /* godzilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = godzilla.jpg; sourceTree = "<group>"; };
 		58FA20641D47F6ED00F086B9 /* hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hobbit.jpg; sourceTree = "<group>"; };
 		58FA20651D47F6ED00F086B9 /* jpark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpark.jpg; sourceTree = "<group>"; };
-		58FA206A1D47F72100F086B9 /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		58FA206A1D47F72100F086B9 /* myTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myTableViewCell.swift; path = ../myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,6 @@
 		58FA20251D47F5F200F086B9 = {
 			isa = PBXGroup;
 			children = (
-				58FA206A1D47F72100F086B9 /* myTableViewCell.swift */,
 				58FA20301D47F5F400F086B9 /* CoreDataWithTable */,
 				58FA20481D47F5F700F086B9 /* CoreDataWithTableTests */,
 				58FA20531D47F5F800F086B9 /* CoreDataWithTableUITests */,
@@ -114,6 +113,7 @@
 				58FA20631D47F6ED00F086B9 /* godzilla.jpg */,
 				58FA20641D47F6ED00F086B9 /* hobbit.jpg */,
 				58FA20651D47F6ED00F086B9 /* jpark.jpg */,
+				58FA206A1D47F72100F086B9 /* myTableViewCell.swift */,
 				58FA20311D47F5F500F086B9 /* AppDelegate.swift */,
 				58FA20331D47F5F500F086B9 /* ViewController.swift */,
 				58FA20351D47F5F500F086B9 /* Main.storyboard */,
