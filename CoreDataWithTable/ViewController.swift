@@ -11,7 +11,7 @@ import CoreData
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
+    // properties 
     var results: NSArray! = NSArray()
     var appDel: AppDelegate!
     var context: NSManagedObjectContext!
@@ -42,6 +42,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Dispose of any resources that can be recreated.
     }
 
+    // load table function
     func loadTable() {
         let request = NSFetchRequest(entityName: "Movie")
         request.returnsObjectsAsFaults = false
@@ -49,10 +50,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    // MARK: TABLE DATA SOURCE 
+    // return the number of rows in section
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return results.count
     }
     
+    // return cell for row at index
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: myTableViewCell = tableView.dequeueReusableCellWithIdentifier("myTabVC") as! myTableViewCell
         let aux = results[indexPath.row] as! NSManagedObject
