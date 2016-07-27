@@ -51,6 +51,12 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="director" destination="1dp-Fw-Qj7" id="mDJ-08-gb0"/>
+                                            <outlet property="myImage" destination="h0l-lm-qt4" id="3zN-Fv-5CY"/>
+                                            <outlet property="title" destination="aGW-Dq-lXX" id="fzV-3a-ksp"/>
+                                            <outlet property="year" destination="oKS-nR-Boh" id="xZp-BW-Vr5"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
