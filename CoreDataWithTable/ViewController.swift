@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         // code to add a movie 
         let movie = NSEntityDescription.insertNewObjectForEntityForName("Movie", inManagedObjectContext: context)
-        movie.setValue("El Hobbit: Un viaje inesperado", forKey: "title")
+        movie.setValue("The Hobbit ", forKey: "title")
         movie.setValue("2013", forKey: "year")
         movie.setValue("Peter Jackson", forKey: "director")
         movie.setValue("hobbit.jpg", forKey: "image")
